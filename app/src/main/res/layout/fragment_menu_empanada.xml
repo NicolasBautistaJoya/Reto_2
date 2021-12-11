@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Menu_empanada">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/empanada"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/empanada_carne"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomEmpanada1"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Empanada de carne"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descEmpanada1"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Empanada rellena de carne"></TextView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="165dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/empanada2"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/empanada_pollo"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomEmpanada2"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Empanada de pollo"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descEmpanada2"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Empanada rellena de pollo y arroz "></TextView>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="295dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/empanada3"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/empanada_lechona"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomEmpanada3"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Empanada de lechona"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descEmpanada3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Empanada rellena de lechona"></TextView>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_marginTop="420dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/empanada4"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/empanada_hawaiiana"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="166dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomEmpanada4"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Empanada hawaiiana"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descEmpanada4"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Empanada rellena de queso, piña y jamon"></TextView>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

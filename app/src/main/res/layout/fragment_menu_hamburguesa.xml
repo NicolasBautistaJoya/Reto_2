@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hamb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".Menu_hamburguesa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/hamburguesa"
+            android:layout_width="160dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/hamburguesa"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomHamb1"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Hamburguesa tradicional"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descHamb1"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Hamburguesa con lechuga, tomate, queso y aderezos"></TextView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="165dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/hamburguesa2"
+            android:layout_width="162dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/triple_carne"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomHamb2"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Hamburguesa triple carne"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descHamb2"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Hamburguesa de tres carnes con queso y vegetales "></TextView>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="295dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/hamburguesa3"
+            android:layout_width="162dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pollo"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomHamb3"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Hamburguesa de pollo"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descHamb3"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Hamburguesa de pollo con lechuga, tomate y cebolla"></TextView>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_marginTop="425dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/hamburguesa4"
+            android:layout_width="165dp"
+            android:layout_height="118dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/hawaiana"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="166dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomHamb4"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="Hamburguesa hawaiiana"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descHamb4"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Hamburguesa con jamon, piña, y verduras"></TextView>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="138dp"
+                android:layout_height="35dp"
+                android:text="Comprar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+
